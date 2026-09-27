@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "FormFills - Test Data Generator",
+  "version": "1.0.0",
+  "description": "Automatisches Ausfüllen von Formularen mit realistischen Testdaten für Entwickler und Tester.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}

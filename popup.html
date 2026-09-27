@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>FormFills</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-[320px] p-4 bg-gray-950 text-gray-100">
+  <h1 class="text-lg font-bold mb-3">📝 FormFills</h1>
+  
+  <div class="space-y-3">
+    <div>
+      <label class="text-xs text-gray-400 block mb-1">Profil wählen:</label>
+      <select id="profile-select" class="w-full bg-gray-900 border border-gray-800 rounded p-2 text-sm">
+        <option value="standard">Standard-Testuser</option>
+        <option value="edge">Edge-Case / Sonderzeichen</option>
+        <option value="empty">Leeres Formular (Reset)</option>
+      </select>
+    </div>
+
+    <button id="fill-btn" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-4 rounded transition text-sm">
+      Formular jetzt ausfüllen
+    </button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
